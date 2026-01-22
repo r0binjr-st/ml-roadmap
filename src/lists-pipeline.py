@@ -20,8 +20,8 @@ def make_pairs(nums: list[int]) -> list[tuple[int, int]]:
 def save_pairs(nums_pair: list[tuple[int, int]]):
     with open(path, "w") as file:
         for x, y in nums_pair:
-            print(f"{x} {y}")
-            file.write(f"{x} {y}")
+            print(f"{x} {y}\n")
+            file.write(f"{x} {y}\n")
     file.close
 
 
