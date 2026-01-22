@@ -31,6 +31,7 @@ path_r = "D:/ml-roadmap/data/input_numbers1.txt"
 path_w = "D:/ml-roadmap/reports/results3.txt"
 nums = read_file(path_r)
 pairs = make_pairs(nums)
+print(pairs)
 save_pairs(pairs)
 print("\nDone")
 
